@@ -5,17 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css"
+/>
   </head>
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title">
-          <a class="back-link" href="./index.html">Go back</a>
-        </h1>
-      
+        <h1 class="main-title"></h1>
       </div>
+      <form  id="feedback-form">
+    <label>
+      Email:
+      <input type="email" name="email" />
+    </label>
+    <br />
+    <label>
+      Message:
+      <textarea  name="message"></textarea>
+    </label>
+    <br />
+    <button  type="submit">Submit</button>
+  </form>
     </main>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.js"></script>
     <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>

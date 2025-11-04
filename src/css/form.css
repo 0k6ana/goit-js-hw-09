@@ -1,0 +1,47 @@
+
+
+form {
+  background: #fff;
+  padding: 24px 28px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #2E2F42;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #4E75FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+ width: 95px;
+ height: 40px;
+}
+
+button:hover {
+  background-color: #6C8CFF;
+}
+
